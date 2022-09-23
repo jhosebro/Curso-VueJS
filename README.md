@@ -1,5 +1,5 @@
-# Curso-VueJS
-Repositorio donde guardo todos los ejercicios introductorios del curso de Vue JS
+# Curso Vue.js
+Repositorio donde guardo todos los ejercicios introductorios del curso de Vue.js
 
 # Tecnologias utilizadas con lo que va del codigo
 -HTML <br>
