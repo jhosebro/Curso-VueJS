@@ -1,7 +1,7 @@
-# Curso Vue.js
-Repositorio donde guardo todos los ejercicios introductorios del curso de Vue.js
+# Course Vue.js
+Repository where i keep all the introductory exercises of the Vue.js course
 
-# Tecnologias utilizadas con lo que va del codigo
+# Technologies used with what goes from the code
 -HTML <br>
 -JavaScript <br>
 -Bootstrap <br>
