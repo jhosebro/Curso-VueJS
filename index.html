@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola mundo</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>   
+    <link rel="stylesheet" href="https://bootswatch.com/5/morph/bootstrap.css">
+</head>
+<body>
+
+    <div id="app">
+        <h1>{{ message }}</h1>
+        <img href="gif"></img>
+    </div>
+
+    <div id="app-2">
+        <span v-bind:title="message">
+            Desliza el ratón sobre mí para ver el titulo vinculado
+        </span>
+    </div>
+
+    <div id="app-3">
+        <span v-if="seen"> Ahora me ves </span>
+    </div>
+
+    <div id="app-4">
+        <ol>
+            <li v-for="iterador in todos">
+                {{ iterador.text }}
+            </li>
+        </ol>
+    </div>
+
+    <div id="app-5">
+        <p>{{ message }}</p>
+        <button v-on:click="reverseMessage" type="button" class="btn btn-primary" >Ver el mensaje al reves</button>
+    </div>
+
+    <div id="app-6">
+        <p>{{ message }}</p>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" v-model="message">
+    </div> 
+
+    <div id="app-7">
+        <ol>
+            <lista-de-tareas
+                v-for="item in listaDeTareas"
+                v-bind:lista="item"
+                v-bind:key="item.id">
+            </lista-de-tareas>
+        </ol>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
